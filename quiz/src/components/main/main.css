@@ -1,0 +1,95 @@
+.mainContainer {
+  box-shadow: 1px 1px 3px 1px black;
+  height: fit-content;
+  width: 70%;
+  min-width: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.questionMark {
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+}
+
+.questionMarkImg {
+  max-width: 100%;
+}
+
+.upperSection {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainHeading {
+  font-weight: 500;
+  font-size: 20px;
+  display: inline-block;
+  width: 45vw;
+}
+
+#prevBtn {
+  display: none;
+  transition: all 0.5s ease;
+}
+
+#nextBtn {
+  transition: all 0.5s ease;
+}
+
+.arrowBtn {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#prevBtn:hover {
+  transform: translateX(-5px);
+  color: rgb(135, 26, 26);
+}
+
+#nextBtn:hover {
+  transform: translateX(5px);
+  color: rgb(135, 26, 26);
+}
+
+.queContainer {
+  width: 90%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="radio"] {
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.submitBtnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-right: 10px;
+  margin-top: 77px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-image: linear-gradient(to right, red, rgb(179, 15, 15), red);
+  border: none;
+  padding: 8px 60px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 3px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
